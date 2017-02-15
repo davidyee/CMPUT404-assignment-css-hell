@@ -1,0 +1,50 @@
+body {
+    background-image: url("paper-background.jpg")
+}
+
+p, h1, h2, h3, h4, h5, h6, figcaption {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+}
+
+.first-p::first-letter {
+    font-size: 2em;
+}
+
+a:link {
+    color: #654321;
+}
+
+a:hover {
+    color: #8F6235;
+}
+
+a:visited {
+    color: #A8723D;
+}
+
+img {
+    border: 10px solid #654321;
+}
+
+/* 
+ * From Google Webfonts Helper
+ * https://google-webfonts-helper.herokuapp.com/fonts/merriweather?subsets=latin 
+ */
+
+/* merriweather-regular - latin */
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/merriweather-v15-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Merriweather"), local("Merriweather-Regular"),
+       url("fonts/merriweather-v15-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("fonts/merriweather-v15-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
+       url("fonts/merriweather-v15-latin-regular.woff") format("woff"), /* Modern Browsers */
+       url("fonts/merriweather-v15-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+       url("fonts/merriweather-v15-latin-regular.svg#Merriweather") format("svg"); /* Legacy iOS */
+}
